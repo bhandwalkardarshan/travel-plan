@@ -1,0 +1,75 @@
+/* RetrieveData.css */
+
+/* Style the container */
+.retrieve-data-container {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form controls */
+  .retrieve-data-form {
+    width: 90%;
+    display: inline-block; 
+    text-align: center; 
+    margin: 0 auto; 
+  }
+  
+  .retrieve-data-form select,
+  .retrieve-data-form input[type="text"] {
+    padding: 10px;
+    margin: 5px 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style the submit button */
+  .retrieve-data-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .retrieve-data-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .card-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  /* Style the data cards */
+  .data-card {
+    background-color: #fff;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .data-card h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .data-card button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .data-card button:hover {
+    background-color: #c82333;
+  }
+  
